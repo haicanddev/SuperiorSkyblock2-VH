@@ -1,0 +1,237 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Được phát triển bởi Ome_R         ##
+##                                                  ##
+######################################################
+
+title: '{0} &n${1}'
+previous-menu: true
+
+pattern:
+  - '& & & & & & & & &'
+  - '% $ A B C D E F %'
+  - '% % G H I J K L %'
+  - '% * M N O P Q R %'
+  - '% % S T U V W X %'
+  - '& & & & & & & & &'
+
+items:
+  '&':
+    type: BLACK_STAINED_GLASS_PANE
+    name: '&f'
+  '$':
+    type: SPAWNER
+    name: '&e&lSPAWNERS ->'
+  '*':
+    type: WRITABLE_BOOK
+    name: '&e&lVẬT PHẨM ->'
+  'A':
+    block: SPAWNER:IRON_GOLEM
+    type: PLAYER_HEAD
+    skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkwOTFkNzllYTBmNTllZjdlZjk0ZDdiYmE2ZTVmMTdmMmY3ZDQ1NzJjNDRmOTBmNzZjNDgxOWE3MTQifX19'
+    name: '&e&l[!] &7Máy Phát Sinh Iron Golem'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'B':
+    block: SPAWNER:BLAZE
+    type: PLAYER_HEAD
+    skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ=='
+    name: '&e&l[!] &7Máy Phát Sinh Blaze'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'C':
+    block: SPAWNER:SPIDER
+    type: PLAYER_HEAD
+    skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE2NDVkZmQ3N2QwOTkyMzEwN2IzNDk2ZTk0ZWViNWMzMDMyOWY5N2VmYzk2ZWQ3NmUyMjZlOTgyMjQifX19'
+    name: '&e&l[!] &7Máy Phát Sinh Nhện'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'D':
+    block: SPAWNER:COW
+    type: PLAYER_HEAD
+    skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ2YzZlZGE5NDJmN2Y1ZjcxYzMxNjFjNzMwNmY0YWVkMzA3ZDgyODk1ZjlkMmIwN2FiNDUyNTcxOGVkYzUifX19'
+    name: '&e&l[!] &7Máy Phát Sinh Bò'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'E':
+    block: SPAWNER:ZOMBIE
+    type: PLAYER_HEAD
+    skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZmYzg1NGJiODRjZjRiNzY5NzI5Nzk3M2UwMmI3OWJjMTA2OTg0NjBiNTFhNjM5YzYwZTVlNDE3NzM0ZTExIn19fQ=='
+    name: '&e&l[!] &7Máy Phát Sinh Zombie'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'F':
+    block: SPAWNER:SKELETON
+    type: PLAYER_HEAD
+    skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzAxMjY4ZTljNDkyZGExZjBkODgyNzFjYjQ5MmE0YjMwMjM5NWY1MTVhN2JiZjc3ZjRhMjBiOTVmYzAyZWIyIn19fQ=='
+    name: '&e&l[!] &7Máy Phát Sinh Skeleton'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'G':
+    block: SPAWNER:CREEPER
+    type: PLAYER_HEAD
+    skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQyNTQ4MzhjMzNlYTIyN2ZmY2EyMjNkZGRhYWJmZTBiMDIxNWY3MGRhNjQ5ZTk0NDQ3N2Y0NDM3MGNhNjk1MiJ9fX0='
+    name: '&e&l[!] &7Máy Phát Sinh Creeper'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'H':
+    block: SPAWNER:ZOMBIFIED_PIGLIN
+    type: PLAYER_HEAD
+    skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2VhYmFlY2M1ZmFlNWE4YTQ5Yzg4NjNmZjQ4MzFhYWEyODQxOThmMWEyMzk4ODkwYzc2NWUwYThkZTE4ZGE4YyJ9fX0='
+    name: '&e&l[!] &7Máy Phát Sinh Piglin Zombie'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'I':
+    block: SPAWNER:ENDERMAN
+    type: PLAYER_HEAD
+    skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjkyZDliNThhNGYwNjY2ZDQ0NmQwZDE1NDdjM2NkZTg0N2M0MWYxNTZiYTdmZjY1NmZiMjVkMjVmOWEifX19'
+    name: '&e&l[!] &7Máy Phát Sinh Enderman'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'J':
+    block: SPAWNER:MAGMA_CUBE
+    type: PLAYER_HEAD
+    skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQ1MzQ5NGQyOWQxNjM2NGVhMmIzY2IzYThmZTk4ZGM3ODNhNGY4ZWFjYWI0NzA2N2M3NTNlNmUxIn19fQ=='
+    name: '&e&l[!] &7Máy Phát Sinh Magma Cube'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'K':
+    block: SPAWNER:SLIME
+    type: PLAYER_HEAD
+    skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA3M2UzNDMxZWI5NWEyZDgyZTI0ZDRhZmEyMTQ1ZDdhNjM3YmFkYWM3N2NmYmJlYzA2ZjdiOTk1ODUwYzRjMyJ9fX0='
+    name: '&e&l[!] &7Máy Phát Sinh Slime'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'L':
+    block: SPAWNER:WITHER_SKELETON
+    type: PLAYER_HEAD
+    skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjExOTI3NDk5ZmU3OTcxZGE1NmY3ZDJiM2QwY2RmNDhmNTY0MTliNzA5YzU0YjE0NTljMmY2ZWEzNmRkZjc3MyJ9fX0='
+    name: '&e&l[!] &7Máy Phát Sinh Skeleton Wither'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'M':
+    block: SPAWNER:PIG
+    type: PLAYER_HEAD
+    skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc5MDI4ZmNiOTMyZWRkODdmNjY1YjI1ODQ5NjhhY2I4MzU2ZDQ2ZjU5ZTUzYmNjY2Q4NGY4MzlmMzJkYyJ9fX0='
+    name: '&e&l[!] &7Máy Phát Sinh Heo'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'N':
+    block: SPAWNER:SHEEP
+    type: PLAYER_HEAD
+    skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQyNWE1OWQ2YmNlNzJkZjMyOTdhZTViYzViMzE0OTZmNzgzNjZkNTAzZTllNjhlNjdhOGFkZTIzMDJhYyJ9fX0='
+    name: '&e&l[!] &7Máy Phát Sinh Cừu'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'O':
+    block: SPAWNER:CHICKEN
+    type: PLAYER_HEAD
+    skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg3NzVkMTM2ZjY4YjdlYTk0Mzc1MWUyMDJiZTRkZTY0OTM2YzdiNDJkOGEwOTdjNTllN2Q3MDU0YmY0ZGRmNyJ9fX0='
+    name: '&e&l[!] &7Máy Phát Sinh Gà'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'P':
+    block: SPAWNER:RABBIT
+    type: PLAYER_HEAD
+    skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Q5MmVhNzU0ODg3NTZlOWY3MDhlNzFiY2Y1ZmY3ZmU4ZDg2Yzk0Mzc5OGQ1YTg2NDgzMGE0OTNlNzMxYTUxMiJ9fX0='
+    name: '&e&l[!] &7Máy Phát Sinh Thỏ'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'Q':
+    block: SPAWNER:TURTLE
+    type: PLAYER_HEAD
+    skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjNkODU4NmVkNmEwYmMxMTdjZjUzMmY2Y2I1ZDFkZWRlZmNjZDgzNmNkMWYxYjZkNTdhYzFhYjhjNTdjIn19fQ=='
+    name: '&e&l[!] &7Máy Phát Sinh Rùa'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'R':
+    block: EMERALD_BLOCK
+    type: EMERALD_BLOCK
+    name: '&e&l[!] &7Khối Emerald'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'S':
+    block: BEDROCK
+    type: BEDROCK
+    name: '&e&l[!] &7Đá Nền'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'T':
+    block: ENDER_CHEST
+    type: ENDER_CHEST
+    name: '&e&l[!] &7Rương Ender'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'U':
+    block: DRAGON_EGG
+    type: DRAGON_EGG
+    name: '&e&l[!] &7Trứng Rồng'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'V':
+    block: CHEST
+    type: CHEST
+    name: '&e&l[!] &7Rương'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'W':
+    block: TRAPPED_CHEST
+    type: TRAPPED_CHEST
+    name: '&e&l[!] &7Rương Bẫy'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'
+  'X':
+    block: ENCHANTING_TABLE
+    type: ENCHANTING_TABLE
+    name: '&e&l[!] &7Bàn Phù Phép'
+    lore:
+      - '&6&l* &e&lSố lượng &fx{0}'
+      - '&6&l* &e&lGiá trị: &f${1}'
+      - '&6&l* &e&lCấp độ: &f${2}'

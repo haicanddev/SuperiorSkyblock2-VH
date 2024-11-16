@@ -1,0 +1,108 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##                                                  ##
+######################################################
+
+title: '&lTạo một đảo mới...'
+previous-menu: true
+
+pattern:
+  - '~ ~ ~ ~ ~ ~ ~ ~ ~'
+  - '# @ # # ^ # # $ #'
+  - '~ ~ ~ ~ ~ ~ ~ ~ ~'
+
+items:
+  '@':
+    schematic: 'normal'
+    biome: PLAINS
+    spawn-offset: '0, 0, 0'
+    access:
+      type: PLAYER_HEAD
+      skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk1ZDM3OTkzZTU5NDA4MjY3ODQ3MmJmOWQ4NjgyMzQxM2MyNTBkNDMzMmEyYzdkOGM1MmRlNDk3NmIzNjIifX19'
+      name: '&eĐảo Bình Thường &a(Có Sẵn)'
+      lore:
+        - '&7Đảo đơn giản với cây cối và khu vực khai thác!'
+        - '&7 '
+        - '&7&o(( &f&oNhấp chuột phải &7&oto xem trước đảo. ))'
+    no-access:
+      type: PLAYER_HEAD
+      skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk1ZDM3OTkzZTU5NDA4MjY3ODQ3MmJmOWQ4NjgyMzQxM2MyNTBkNDMzMmEyYzdkOGM1MmRlNDk3NmIzNjIifX19'
+      name: '&eĐảo Bình Thường &c(Không Có Sẵn)'
+      lore:
+        - '&7Đảo đơn giản với cây cối và khu vực khai thác!'
+        - '&7 '
+        - '&7&o(( &f&oNhấp chuột phải &7&oto xem trước đảo. ))'
+  '^':
+    schematic: 'mycel'
+    biome: MUSHROOM_FIELDS
+    spawn-offset: '0, 0, 0'
+    access:
+      type: PLAYER_HEAD
+      skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWE0NWQxYjQxN2NiZGRjMjE3NjdiMDYwNDRlODk5YjI2NmJmNzhhNjZlMjE4NzZiZTNjMDUxNWFiNTVkNzEifX19'
+      name: '&eĐảo Mycelium &a(Có Sẵn)'
+      lore:
+        - '&7Đảo tùy chỉnh với nhiều mycelium!'
+        - '&7 '
+        - '&7&o(( &f&oNhấp chuột phải &7&oto xem trước đảo. ))'
+    no-access:
+      type: PLAYER_HEAD
+      skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWE0NWQxYjQxN2NiZGRjMjE3NjdiMDYwNDRlODk5YjI2NmJmNzhhNjZlMjE4NzZiZTNjMDUxNWFiNTVkNzEifX19'
+      name: '&eĐảo Mycelium &c(Không Có Sẵn)'
+      lore:
+        - '&7Đảo tùy chỉnh với nhiều mycelium!'
+        - '&7 '
+        - '&7&o(( &f&oNhấp chuột phải &7&oto xem trước đảo. ))'
+  '$':
+    schematic: 'desert'
+    biome: DESERT
+    spawn-offset: '0, 0, 0'
+    access:
+      type: PLAYER_HEAD
+      skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVkYjMxMjA2N2JlMWQ1YzRmMTQ3OGFmM2NhMmY2Y2Y4MTA0YWI0Y2NiZmY1NzkxN2M4NTc4ZGFhMTUwMDJjMiJ9fX0='
+      name: '&eĐảo Sa Mạc &a(Có Sẵn)'
+      lore:
+        - '&7Đảo tùy chỉnh với nhiều cát!'
+        - '&7 '
+        - '&7&o(( &f&oNhấp chuột phải &7&oto xem trước đảo. ))'
+    no-access:
+      type: PLAYER_HEAD
+      skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVkYjMxMjA2N2JlMWQ1YzRmMTQ3OGFmM2NhMmY2Y2Y4MTA0YWI0Y2NiZmY1NzkxN2M4NTc4ZGFhMTUwMDJjMiJ9fX0='
+      name: '&eĐảo Sa Mạc &c(Không Có Sẵn)'
+      lore:
+        - '&7Đảo tùy chỉnh với nhiều cát!'
+        - '&7 '
+        - '&7&o(( &f&oNhấp chuột phải &7&oto xem trước đảo. ))'
+  '~':
+    type: BLACK_STAINED_GLASS_PANE
+    name: '&f'
+
+sounds:
+  '@':
+    access:
+      type: BLOCK_PORTAL_AMBIENT
+      volume: 1
+      pitch: 0.2
+    no-access:
+      type: BLOCK_ANVIL_PLACE
+      volume: 0.2
+      pitch: 0.2
+  '^':
+    access:
+      type: BLOCK_PORTAL_AMBIENT
+      volume: 1
+      pitch: 0.2
+    no-access:
+      type: BLOCK_ANVIL_PLACE
+      volume: 0.2
+      pitch: 0.2
+  '$':
+    access:
+      type: BLOCK_PORTAL_AMBIENT
+      volume: 1
+      pitch: 0.2
+    no-access:
+      type: BLOCK_ANVIL_PLACE
+      volume: 0.2
+      pitch: 0.2

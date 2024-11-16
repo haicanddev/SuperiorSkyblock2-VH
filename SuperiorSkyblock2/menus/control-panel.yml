@@ -1,0 +1,167 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##                                                  ##
+######################################################
+
+title: '&lBảng Điều Khiển Đảo'
+previous-menu: true
+
+pattern:
+  - '2 2 2 2 2 2 2 2 2'
+  - '# ! # @ # $ # % #'
+  - '_ # ^ # & # * # 1'
+  - '# ~ # = # - # + #'
+  - '2 2 2 2 2 2 2 2 2'
+
+members: '+'
+settings: '@'
+visitors: '-'
+
+items:
+  '!':
+    type: OAK_SIGN
+    name: '&eDịch Chuyển'
+    lore:
+      - '&7Dịch chuyển về đảo của bạn.'
+  '@':
+    type: REPEATER
+    name: '&eCài Đặt Đảo'
+    lore:
+      - '&7Quản lý cài đặt liên quan đến đảo của bạn.'
+  '$':
+    type: ENDER_PEARL
+    name: '&eQuyền Truy Cập Đảo'
+    lore:
+      - '&7Quản lý quyền truy cập trên đảo của bạn.'
+  '%':
+    type: GRASS_BLOCK
+    name: '&eCác Sinh Học Đảo'
+    lore:
+      - '&7Thay đổi sinh học của đảo của bạn.'
+  '_':
+    type: EMERALD
+    name: '&eNgân Hàng Đảo'
+    lore:
+      - '&7Mở ngân hàng của đảo bạn.'
+  '^':
+    type: GOLD_INGOT
+    name: '&eNâng Cấp Đảo'
+    lore:
+      - '&7Nâng cấp thống kê của đảo bạn!'
+  '&':
+    type: BEACON
+    name: '&eCác Đảo Hàng Đầu'
+    lore:
+      - '&7Kiểm tra đảo nào là tốt nhất trên server!'
+  '*':
+    type: PAPER
+    name: '&eNhiệm Vụ Đảo'
+    lore:
+      - '&7Hoàn thành nhiệm vụ và nhận phần thưởng!'
+  '1':
+    type: STONE_BRICKS
+    name: '&eSố Liệu Đảo'
+    lore:
+      - '&7Xem tất cả các khối trên đảo của bạn!'
+  '~':
+    type: BARRIER
+    name: '&eGiải Tán Đảo'
+    lore:
+      - '&7Giải tán đảo của bạn.'
+      - '&cHành động này không thể khôi phục!'
+  '=':
+    type: CHEST
+    name: '&eRương Đảo'
+    lore:
+      - '&7Mở rương cộng đồng của đảo.'
+  '-':
+    type: SKELETON_SKULL
+    name: '&eKhách Thăm Đảo'
+    lore:
+      - '&7Xem tất cả khách thăm đảo.'
+  '+':
+    type: PLAYER_HEAD
+    name: '&eThành Viên Đảo'
+    lore:
+      - '&7Quản lý các thành viên của đảo.'
+  '2':
+    type: BLACK_STAINED_GLASS_PANE
+    name: '&f'
+
+sounds:
+  '!':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
+  '@':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
+  '$':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
+  '%':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
+  '_':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
+  '^':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
+  '&':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
+  '*':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
+  '1':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
+  '~':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
+  '-':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
+  '=':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
+  '+':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
+
+commands:
+  '!':
+    - '[player] is tp'
+  '$':
+    - '[player] is permissions'
+  '%':
+    - '[player] is biome'
+  '_':
+    - '[player] is bank'
+  '^':
+    - '[player] is upgrade'
+  '&':
+    - '[player] is top'
+  '*':
+    - '[player] is missions'
+  '1':
+    - '[player] is counts'
+  '~':
+    - '[player] is disband'
+  '=':
+    - '[player] is chest'

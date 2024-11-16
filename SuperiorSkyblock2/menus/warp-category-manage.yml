@@ -1,0 +1,48 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Phát triển bởi Ome_R              ##
+##                                                  ##
+######################################################
+
+title: '&lDanh Mục: {0}'
+previous-menu: true
+
+pattern:
+  - '@ @ @ @ @ @ @ @ @'
+  - '@ ! @ @ ~ @ @ $ @'
+  - '@ @ @ @ @ @ @ @ @'
+
+success-update-sound:
+  type: ENTITY_EXPERIENCE_ORB_PICKUP
+  volume: 0.2
+  pitch: 0.2
+
+category-rename: '!'
+category-icon: '~'
+category-warps: '$'
+
+items:
+  '!':
+    type: BOOK
+    name: '&6Đổi Tên Danh Mục'
+    lore:
+      - '&f '
+      - '&f '
+      - '&7&o(( &f&oNhấn &7&ochỉnh sửa tên danh mục. ))'
+  '~':
+    type: STONE
+    lore:
+      - '&7&oBạn có thể sử dụng các placeholder sau:'
+      - '&7&o{0} là tên của warp.'
+      - '&7&o{1} là vị trí của warp.'
+      - '&7&o{2} là trạng thái công khai của warp.'
+      - '&7&o(( &f&oNhấn Chuột Phải &7&ochỉnh sửa biểu tượng. ))'
+      - '&7&o(( &f&oNhấn Chuột Trái &7&ochỉnh sửa vị trí của danh mục. ))'
+  '$':
+    type: ENDER_PEARL
+    name: '&6Warp Đảo'
+    lore:
+      - '&f '
+      - '&f '
+      - '&7&o(( &f&oNhấn &7&ochỉnh sửa warp của danh mục. ))'

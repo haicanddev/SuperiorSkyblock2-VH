@@ -1,0 +1,1994 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##                                                  ##
+######################################################
+
+title: '&lBảng Điều Khiển Quyền Hạn'
+previous-menu: true
+
+pattern:
+  - '$ $ $ $ $ $ $ $ $'
+  - '$ @ @ @ @ @ @ @ $'
+  - '$ @ @ @ @ @ @ @ $'
+  - '$ @ @ @ @ @ @ @ $'
+  - '$ $ % $ * $ ^ $ $'
+
+slots: '@'
+previous-page: '%'
+current-page: '*'
+next-page: '^'
+
+messages:
+  no-role-permission: '&8 - &c{}'
+  exact-role-permission: '&8 - &2{}'
+  higher-role-permission: '&8 - &a{}'
+
+items:
+  '$':
+    type: CYAN_STAINED_GLASS_PANE
+    name: '&f'
+  '%':
+    type: PAPER
+    name: '{0}Trang Trước'
+  '*':
+    type: SUNFLOWER
+    name: '&aTrang Hiện Tại'
+    lore:
+      - '&7Trang {0}'
+  '^':
+    type: PAPER
+    name: '{0}Trang Tiếp Theo'
+
+permissions:
+  all:
+    display-menu: true
+    permission-enabled:
+      type: BEDROCK
+      name: '&6Tất Cả'
+      lore:
+        - '&7Quyền truy cập tất cả các khả năng của đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: BEDROCK
+      name: '&6Tất Cả'
+      lore:
+        - '&7Quyền truy cập tất cả các khả năng của đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: BEDROCK
+      name: '&6Tất Cả'
+      lore:
+        - '&7Quyền truy cập tất cả các khả năng của đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  animal_breed:
+    display-menu: true
+    permission-enabled:
+      type: WHEAT
+      name: '&6Nhân Giống Động Vật'
+      lore:
+        - '&7Quyền truy cập để nhân giống động vật trên đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: WHEAT
+      name: '&6Nhân Giống Động Vật'
+      lore:
+        - '&7Quyền truy cập để nhân giống động vật trên đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: WHEAT
+      name: '&6Nhân Giống Động Vật'
+      lore:
+        - '&7Quyền truy cập để nhân giống động vật trên đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  animal_damage:
+    display-menu: true
+    permission-enabled:
+      type: DIAMOND_SWORD
+      name: '&6Gây Thương Tổn Động Vật'
+      lore:
+        - '&7Quyền truy cập để gây thương tổn động vật trên đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: DIAMOND_SWORD
+      name: '&6Gây Thương Tổn Động Vật'
+      lore:
+        - '&7Quyền truy cập để gây thương tổn động vật trên đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: DIAMOND_SWORD
+      name: '&6Gây Thương Tổn Động Vật'
+      lore:
+        - '&7Quyền truy cập để gây thương tổn động vật trên đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  animal_shear:
+    display-menu: true
+    permission-enabled:
+      type: SHEARS
+      name: '&6Tỉa Động Vật'
+      lore:
+        - '&7Quyền truy cập để tỉa động vật trên đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: SHEARS
+      name: '&6Tỉa Động Vật'
+      lore:
+        - '&7Quyền truy cập để tỉa động vật trên đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: SHEARS
+      name: '&6Tỉa Động Vật'
+      lore:
+        - '&7Quyền truy cập để tỉa động vật trên đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  animal_spawn:
+    display-menu: true
+    permission-enabled:
+      type: CHICKEN_SPAWN_EGG
+      name: '&6Gây Động Vật'
+      lore:
+        - '&7Quyền truy cập để gây động vật trên đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: CHICKEN_SPAWN_EGG
+      name: '&6Gây Động Vật'
+      lore:
+        - '&7Quyền truy cập để gây động vật trên đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: CHICKEN_SPAWN_EGG
+      name: '&6Gây Động Vật'
+      lore:
+        - '&7Quyền truy cập để gây động vật trên đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  ban_member:
+    display-menu: true
+    permission-enabled:
+      type: SKELETON_SKULL
+      name: '&6Cấm Thành Viên'
+      lore:
+        - '&7Quyền truy cập để cấm thành viên khỏi đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: SKELETON_SKULL
+      name: '&6Cấm Thành Viên'
+      lore:
+        - '&7Quyền truy cập để cấm thành viên khỏi đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: SKELETON_SKULL
+      name: '&6Cấm Thành Viên'
+      lore:
+        - '&7Quyền truy cập để cấm thành viên khỏi đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  break:
+    display-menu: true
+    permission-enabled:
+      type: DIAMOND_PICKAXE
+      name: '&6Phá Vỡ'
+      lore:
+        - '&7Quyền truy cập để phá vỡ khối trên đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: DIAMOND_PICKAXE
+      name: '&6Phá Vỡ'
+      lore:
+        - '&7Quyền truy cập để phá vỡ khối trên đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: DIAMOND_PICKAXE
+      name: '&6Phá Vỡ'
+      lore:
+        - '&7Quyền truy cập để phá vỡ khối trên đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  build:
+    display-menu: true
+    permission-enabled:
+      type: COBBLESTONE
+      name: '&6Xây Dựng'
+      lore:
+        - '&7Quyền truy cập để đặt khối trên đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: COBBLESTONE
+      name: '&6Xây Dựng'
+      lore:
+        - '&7Quyền truy cập để đặt khối trên đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: COBBLESTONE
+      name: '&6Xây Dựng'
+      lore:
+        - '&7Quyền truy cập để đặt khối trên đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  change_name:
+    display-menu: true
+    permission-enabled:
+      type: NAME_TAG
+      name: '&6Thay Đổi Tên'
+      lore:
+        - '&7Quyền truy cập để thay đổi tên của đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: NAME_TAG
+      name: '&6Thay Đổi Tên'
+      lore:
+        - '&7Quyền truy cập để thay đổi tên của đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: NAME_TAG
+      name: '&6Thay Đổi Tên'
+      lore:
+        - '&7Quyền truy cập để thay đổi tên của đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  chest_access:
+    display-menu: true
+    permission-enabled:
+      type: CHEST
+      name: '&6Truy Cập Hòm'
+      lore:
+        - '&7Quyền truy cập để mở hòm bên trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: CHEST
+      name: '&6Truy Cập Hòm'
+      lore:
+        - '&7Quyền truy cập để mở hòm bên trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: CHEST
+      name: '&6Truy Cập Hòm'
+      lore:
+        - '&7Quyền truy cập để mở hòm bên trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  chorus_fruit:
+    display-menu: true
+    permission-enabled:
+      type: CHORUS_FRUIT
+      name: '&6Quả Chorus'
+      lore:
+        - '&7Quyền truy cập để tiêu thụ quả chorus bên trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: CHORUS_FRUIT
+      name: '&6Quả Chorus'
+      lore:
+        - '&7Quyền truy cập để tiêu thụ quả chorus bên trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: CHORUS_FRUIT
+      name: '&6Quả Chorus'
+      lore:
+        - '&7Quyền truy cập để tiêu thụ quả chorus bên trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  close_bypass:
+    display-menu: true
+    permission-enabled:
+      type: TRIPWIRE_HOOK
+      name: '&6Bỏ Qua Khóa'
+      lore:
+        - '&7Quyền truy cập để bỏ qua khóa của đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: TRIPWIRE_HOOK
+      name: '&6Bỏ Qua Khóa'
+      lore:
+        - '&7Quyền truy cập để bỏ qua khóa của đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: TRIPWIRE_HOOK
+      name: '&6Bỏ Qua Khóa'
+      lore:
+        - '&7Quyền truy cập để bỏ qua khóa của đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  close_island:
+    display-menu: true
+    permission-enabled:
+      type: BARRIER
+      name: '&6Khóa Đảo'
+      lore:
+        - '&7Quyền truy cập để khóa đảo khỏi công chúng.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: BARRIER
+      name: '&6Khóa Đảo'
+      lore:
+        - '&7Quyền truy cập để khóa đảo khỏi công chúng.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: BARRIER
+      name: '&6Khóa Đảo'
+      lore:
+        - '&7Quyền truy cập để khóa đảo khỏi công chúng.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  coop_member:
+    display-menu: true
+    permission-enabled:
+      type: GOLDEN_APPLE
+      name: '&6Thêm Thành Viên Co-op'
+      lore:
+        - '&7Quyền truy cập để thêm một người chơi vào nhóm co-op.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: GOLDEN_APPLE
+      name: '&6Thêm Thành Viên Co-op'
+      lore:
+        - '&7Quyền truy cập để thêm một người chơi vào nhóm co-op.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: GOLDEN_APPLE
+      name: '&6Thêm Thành Viên Co-op'
+      lore:
+        - '&7Quyền truy cập để thêm một người chơi vào nhóm co-op.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  delete_warp:
+    display-menu: true
+    permission-enabled:
+      type: ENDER_PEARL
+      name: '&6Xóa Warp'
+      lore:
+        - '&7Quyền truy cập để xóa các warp của đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: ENDER_PEARL
+      name: '&6Xóa Warp'
+      lore:
+        - '&7Quyền truy cập để xóa các warp của đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: ENDER_PEARL
+      name: '&6Xóa Warp'
+      lore:
+        - '&7Quyền truy cập để xóa các warp của đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  demote_members:
+    display-menu: true
+    permission-enabled:
+      type: IRON_INGOT
+      name: '&6Hạ Cấp Thành Viên'
+      lore:
+        - '&7Quyền truy cập để hạ cấp các thành viên bên trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: IRON_INGOT
+      name: '&6Hạ Cấp Thành Viên'
+      lore:
+        - '&7Quyền truy cập để hạ cấp các thành viên bên trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: IRON_INGOT
+      name: '&6Hạ Cấp Thành Viên'
+      lore:
+        - '&7Quyền truy cập để hạ cấp các thành viên bên trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  deposit_money:
+    display-menu: true
+    permission-enabled:
+      type: MAP
+      name: '&6Nạp Tiền'
+      lore:
+        - '&7Quyền truy cập để nạp tiền vào ngân hàng của đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: MAP
+      name: '&6Nạp Tiền'
+      lore:
+        - '&7Quyền truy cập để nạp tiền vào ngân hàng của đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: MAP
+      name: '&6Nạp Tiền'
+      lore:
+        - '&7Quyền truy cập để nạp tiền vào ngân hàng của đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  disband_island:
+    display-menu: true
+    permission-enabled:
+      type: TNT
+      name: '&6Giải Tán Đảo'
+      lore:
+        - '&7Quyền truy cập để giải tán đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: TNT
+      name: '&6Giải Tán Đảo'
+      lore:
+        - '&7Quyền truy cập để giải tán đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: TNT
+      name: '&6Giải Tán Đảo'
+      lore:
+        - '&7Quyền truy cập để giải tán đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  discord_show:
+    display-menu: true
+    permission-enabled:
+      type: LIGHT_BLUE_TERRACOTTA
+      name: '&6Hiển Thị Discord'
+      lore:
+        - '&7Quyền truy cập để kiểm tra discord liên kết của đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: LIGHT_BLUE_TERRACOTTA
+      name: '&6Hiển Thị Discord'
+      lore:
+        - '&7Quyền truy cập để kiểm tra discord liên kết của đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: LIGHT_BLUE_TERRACOTTA
+      name: '&6Hiển Thị Discord'
+      lore:
+        - '&7Quyền truy cập để kiểm tra discord liên kết của đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  drop_items:
+    display-menu: true
+    permission-enabled:
+      type: ARROW
+      name: '&6Thả Đồ'
+      lore:
+        - '&7Quyền truy cập để thả đồ bên trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: ARROW
+      name: '&6Thả Đồ'
+      lore:
+        - '&7Quyền truy cập để thả đồ bên trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: ARROW
+      name: '&6Thả Đồ'
+      lore:
+        - '&7Quyền truy cập để thả đồ bên trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  ender_pearl:
+    display-menu: true
+    permission-enabled:
+      type: ENDER_PEARL
+      name: '&6Ender Pearl'
+      lore:
+        - '&7Quyền truy cập để sử dụng ender pearls bên trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: ENDER_PEARL
+      name: '&6Ender Pearl'
+      lore:
+        - '&7Quyền truy cập để sử dụng ender pearls bên trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: ENDER_PEARL
+      name: '&6Ender Pearl'
+      lore:
+        - '&7Quyền truy cập để sử dụng ender pearls bên trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  expel_bypass:
+    display-menu: true
+    permission-enabled:
+      type: FEATHER
+      name: '&6Bỏ Qua Bị Trục Xuất'
+      lore:
+        - '&7Quyền truy cập để bỏ qua việc bị trục xuất.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: FEATHER
+      name: '&6Bỏ Qua Bị Trục Xuất'
+      lore:
+        - '&7Quyền truy cập để bỏ qua việc bị trục xuất.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: FEATHER
+      name: '&6Bỏ Qua Bị Trục Xuất'
+      lore:
+        - '&7Quyền truy cập để bỏ qua việc bị trục xuất.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  expel_players:
+    display-menu: true
+    permission-enabled:
+      type: DISPENSER
+      name: '&6Trục Xuất Người Chơi'
+      lore:
+        - '&7Quyền truy cập để trục xuất người chơi khỏi đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: DISPENSER
+      name: '&6Trục Xuất Người Chơi'
+      lore:
+        - '&7Quyền truy cập để trục xuất người chơi khỏi đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: DISPENSER
+      name: '&6Trục Xuất Người Chơi'
+      lore:
+        - '&7Quyền truy cập để trục xuất người chơi khỏi đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  farm_tramping:
+    display-menu: true
+    permission-enabled:
+      type: FARMLAND
+      name: '&6Dẫm Lên Cánh Đồng'
+      lore:
+        - '&7Quyền truy cập để dẫm lên các cánh đồng trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: FARMLAND
+      name: '&6Dẫm Lên Cánh Đồng'
+      lore:
+        - '&7Quyền truy cập để dẫm lên các cánh đồng trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: FARMLAND
+      name: '&6Dẫm Lên Cánh Đồng'
+      lore:
+        - '&7Quyền truy cập để dẫm lên các cánh đồng trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  fertilize:
+    display-menu: true
+    permission-enabled:
+      type: BONE_MEAL
+      name: '&6Bón Phân'
+      lore:
+        - '&7Quyền truy cập để bón phân cho các khối xung quanh đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: BONE_MEAL
+      name: '&6Bón Phân'
+      lore:
+        - '&7Quyền truy cập để bón phân cho các khối xung quanh đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: BONE_MEAL
+      name: '&6Bón Phân'
+      lore:
+        - '&7Quyền truy cập để bón phân cho các khối xung quanh đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  fish:
+    display-menu: true
+    permission-enabled:
+      type: FISHING_ROD
+      name: '&6Câu Cá'
+      lore:
+        - '&7Quyền truy cập để câu cá xung quanh đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: FISHING_ROD
+      name: '&6Câu Cá'
+      lore:
+        - '&7Quyền truy cập để câu cá xung quanh đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: FISHING_ROD
+      name: '&6Câu Cá'
+      lore:
+        - '&7Quyền truy cập để câu cá xung quanh đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  fly:
+    display-menu: true
+    permission-enabled:
+      type: FEATHER
+      name: '&6Bay'
+      lore:
+        - '&7Quyền truy cập để bay quanh đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: FEATHER
+      name: '&6Bay'
+      lore:
+        - '&7Quyền truy cập để bay quanh đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: FEATHER
+      name: '&6Bay'
+      lore:
+        - '&7Quyền truy cập để bay quanh đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  horse_interact:
+    display-menu: true
+    permission-enabled:
+      type: HORSE_SPAWN_EGG
+      name: '&6Tương Tác Với Ngựa'
+      lore:
+        - '&7Quyền truy cập để tương tác với ngựa trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: HORSE_SPAWN_EGG
+      name: '&6Tương Tác Với Ngựa'
+      lore:
+        - '&7Quyền truy cập để tương tác với ngựa trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: HORSE_SPAWN_EGG
+      name: '&6Tương Tác Với Ngựa'
+      lore:
+        - '&7Quyền truy cập để tương tác với ngựa trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  ignite_creeper:
+    display-menu: true
+    permission-enabled:
+      type: CREEPER_SPAWN_EGG
+      name: '&6Kích Nổ Creepers'
+      lore:
+        - '&7Quyền truy cập để kích nổ creepers bằng flint và steel trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: CREEPER_SPAWN_EGG
+      name: '&6Kích Nổ Creepers'
+      lore:
+        - '&7Quyền truy cập để kích nổ creepers bằng flint và steel trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: CREEPER_SPAWN_EGG
+      name: '&6Kích Nổ Creepers'
+      lore:
+        - '&7Quyền truy cập để kích nổ creepers bằng flint và steel trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  interact:
+    display-menu: true
+    permission-enabled:
+      type: PISTON
+      name: '&6Tương Tác'
+      lore:
+        - '&7Quyền truy cập để tương tác với các khối bên trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: PISTON
+      name: '&6Tương Tác'
+      lore:
+        - '&7Quyền truy cập để tương tác với các khối bên trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: PISTON
+      name: '&6Tương Tác'
+      lore:
+        - '&7Quyền truy cập để tương tác với các khối bên trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  invite_member:
+    display-menu: true
+    permission-enabled:
+      type: PLAYER_HEAD
+      data: 3
+      name: '&6Mời Thành Viên'
+      lore:
+        - '&7Quyền truy cập để mời thành viên mới vào đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: PLAYER_HEAD
+      name: '&6Mời Thành Viên'
+      lore:
+        - '&7Quyền truy cập để mời thành viên mới vào đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: PLAYER_HEAD
+      name: '&6Mời Thành Viên'
+      lore:
+        - '&7Quyền truy cập để mời thành viên mới vào đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  island_chest:
+    display-menu: true
+    permission-enabled:
+      type: ENDER_CHEST
+      name: '&6Rương Cộng Đồng'
+      lore:
+        - '&7Quyền truy cập vào rương cộng đồng của đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: ENDER_CHEST
+      name: '&6Rương Cộng Đồng'
+      lore:
+        - '&7Quyền truy cập vào rương cộng đồng của đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: ENDER_CHEST
+      name: '&6Rương Cộng Đồng'
+      lore:
+        - '&7Quyền truy cập vào rương cộng đồng của đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  item_frame:
+    display-menu: true
+    permission-enabled:
+      type: ITEM_FRAME
+      name: '&6Khung Đồ'
+      lore:
+        - '&7Quyền truy cập để tương tác với các khung đồ bên trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: ITEM_FRAME
+      name: '&6Khung Đồ'
+      lore:
+        - '&7Quyền truy cập để tương tác với các khung đồ bên trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: ITEM_FRAME
+      name: '&6Khung Đồ'
+      lore:
+        - '&7Quyền truy cập để tương tác với các khung đồ bên trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  kick_member:
+    display-menu: true
+    permission-enabled:
+      type: SKELETON_SKULL
+      name: '&6Đá Thành Viên'
+      lore:
+        - '&7Quyền truy cập để đá thành viên khỏi đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: SKELETON_SKULL
+      name: '&6Đá Thành Viên'
+      lore:
+        - '&7Quyền truy cập để đá thành viên khỏi đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: SKELETON_SKULL
+      name: '&6Đá Thành Viên'
+      lore:
+        - '&7Quyền truy cập để đá thành viên khỏi đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  leash:
+    display-menu: true
+    permission-enabled:
+      type: LEAD
+      name: '&6Dùng Dây Để Cột Mobs'
+      lore:
+        - '&7Quyền truy cập để dùng dây để cột mobs trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: LEAD
+      name: '&6Dùng Dây Để Cột Mobs'
+      lore:
+        - '&7Quyền truy cập để dùng dây để cột mobs trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: LEAD
+      name: '&6Dùng Dây Để Cột Mobs'
+      lore:
+        - '&7Quyền truy cập để dùng dây để cột mobs trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  monster_damage:
+    display-menu: true
+    permission-enabled:
+      type: ZOMBIE_HEAD
+      name: '&6Gây Thiệt Hại Cho Quái Vật'
+      lore:
+        - '&7Quyền truy cập để gây thiệt hại cho quái vật trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: ZOMBIE_HEAD
+      name: '&6Gây Thiệt Hại Cho Quái Vật'
+      lore:
+        - '&7Quyền truy cập để gây thiệt hại cho quái vật trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: ZOMBIE_HEAD
+      name: '&6Gây Thiệt Hại Cho Quái Vật'
+      lore:
+        - '&7Quyền truy cập để gây thiệt hại cho quái vật trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  minecart_damage:
+    display-menu: true
+    permission-enabled:
+      type: TNT_MINECART
+      name: '&6Gây Thiệt Hại Cho Minecarts'
+      lore:
+        - '&7Quyền truy cập để gây thiệt hại cho minecarts trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: TNT_MINECART
+      name: '&6Gây Thiệt Hại Cho Minecarts'
+      lore:
+        - '&7Quyền truy cập để gây thiệt hại cho minecarts trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: TNT_MINECART
+      name: '&6Gây Thiệt Hại Cho Minecarts'
+      lore:
+        - '&7Quyền truy cập để gây thiệt hại cho minecarts trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  minecart_enter:
+    display-menu: true
+    permission-enabled:
+      type: HOPPER_MINECART
+      name: '&6Vào Minecart'
+      lore:
+        - '&7Quyền truy cập để vào các minecarts trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: HOPPER_MINECART
+      name: '&6Vào Minecart'
+      lore:
+        - '&7Quyền truy cập để vào các minecarts trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: HOPPER_MINECART
+      name: '&6Vào Minecart'
+      lore:
+        - '&7Quyền truy cập để vào các minecarts trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  minecart_open:
+    display-menu: true
+    permission-enabled:
+      type: CHEST_MINECART
+      name: '&6Mở Minecart'
+      lore:
+        - '&7Quyền truy cập để mở các minecarts trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: CHEST_MINECART
+      name: '&6Mở Minecart'
+      lore:
+        - '&7Quyền truy cập để mở các minecarts trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: CHEST_MINECART
+      name: '&6Mở Minecart'
+      lore:
+        - '&7Quyền truy cập để mở các minecarts trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  minecart_place:
+    display-menu: true
+    permission-enabled:
+      type: MINECART
+      name: '&6Đặt Minecart'
+      lore:
+        - '&7Quyền truy cập để đặt các minecarts trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: MINECART
+      name: '&6Đặt Minecart'
+      lore:
+        - '&7Quyền truy cập để đặt các minecarts trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: MINECART
+      name: '&6Đặt Minecart'
+      lore:
+        - '&7Quyền truy cập để đặt các minecarts trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  monster_spawn:
+    display-menu: true
+    permission-enabled:
+      type: CAVE_SPIDER_SPAWN_EGG
+      name: '&6Spawn Quái Vật'
+      lore:
+        - '&7Quyền truy cập để spawn quái vật trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: CAVE_SPIDER_SPAWN_EGG
+      name: '&6Spawn Quái Vật'
+      lore:
+        - '&7Quyền truy cập để spawn quái vật trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: CAVE_SPIDER_SPAWN_EGG
+      name: '&6Spawn Quái Vật'
+      lore:
+        - '&7Quyền truy cập để spawn quái vật trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  name_entity:
+    display-menu: true
+    permission-enabled:
+      type: NAME_TAG
+      name: '&6Đặt Tên Thực Thể'
+      lore:
+        - '&7Quyền truy cập để đặt tên cho các thực thể trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: NAME_TAG
+      name: '&6Đặt Tên Thực Thể'
+      lore:
+        - '&7Quyền truy cập để đặt tên cho các thực thể trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: NAME_TAG
+      name: '&6Đặt Tên Thực Thể'
+      lore:
+        - '&7Quyền truy cập để đặt tên cho các thực thể trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  open_island:
+    display-menu: true
+    permission-enabled:
+      type: REDSTONE_TORCH
+      name: '&6Mở Đảo'
+      lore:
+        - '&7Quyền truy cập để mở đảo cho công chúng.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: REDSTONE_TORCH
+      name: '&6Mở Đảo'
+      lore:
+        - '&7Quyền truy cập để mở đảo cho công chúng.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: REDSTONE_TORCH
+      name: '&6Mở Đảo'
+      lore:
+        - '&7Quyền truy cập để mở đảo cho công chúng.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  painting:
+    display-menu: true
+    permission-enabled:
+      type: PAINTING
+      name: '&6Tương Tác Tranh'
+      lore:
+        - '&7Quyền truy cập để tương tác với các bức tranh trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: PAINTING
+      name: '&6Tương Tác Tranh'
+      lore:
+        - '&7Quyền truy cập để tương tác với các bức tranh trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: PAINTING
+      name: '&6Tương Tác Tranh'
+      lore:
+        - '&7Quyền truy cập để tương tác với các bức tranh trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  paypal_show:
+    display-menu: true
+    permission-enabled:
+      type: BLUE_WOOL
+      name: '&6Hiển Thị Paypal'
+      lore:
+        - '&7Quyền truy cập để kiểm tra Paypal liên kết với đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: BLUE_WOOL
+      name: '&6Hiển Thị Paypal'
+      lore:
+        - '&7Quyền truy cập để kiểm tra Paypal liên kết với đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: BLUE_WOOL
+      name: '&6Hiển Thị Paypal'
+      lore:
+        - '&7Quyền truy cập để kiểm tra Paypal liên kết với đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  pickup_axolotl:
+    display-menu: true
+    permission-enabled:
+      type: AXOLOTL_SPAWN_EGG
+      name: '&6Lấy Axolotl'
+      lore:
+        - '&7Quyền truy cập để lấy axolotl bằng xô nước trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: AXOLOTL_SPAWN_EGG
+      name: '&6Lấy Axolotl'
+      lore:
+        - '&7Quyền truy cập để lấy axolotl bằng xô nước trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: AXOLOTL_SPAWN_EGG
+      name: '&6Lấy Axolotl'
+      lore:
+        - '&7Quyền truy cập để lấy axolotl bằng xô nước trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  pickup_drops:
+    display-menu: true
+    permission-enabled:
+      type: HOPPER
+      name: '&6Lấy Đồ Rơi'
+      lore:
+        - '&7Quyền truy cập để lấy các vật phẩm rơi trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: HOPPER
+      name: '&6Lấy Đồ Rơi'
+      lore:
+        - '&7Quyền truy cập để lấy các vật phẩm rơi trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: HOPPER
+      name: '&6Lấy Đồ Rơi'
+      lore:
+        - '&7Quyền truy cập để lấy các vật phẩm rơi trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  pickup_fish:
+    display-menu: true
+    permission-enabled:
+      type: COD
+      name: '&6Lấy Cá'
+      lore:
+        - '&7Quyền truy cập để lấy cá bằng xô trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: COD
+      name: '&6Lấy Cá'
+      lore:
+        - '&7Quyền truy cập để lấy cá bằng xô trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: COD
+      name: '&6Lấy Cá'
+      lore:
+        - '&7Quyền truy cập để lấy cá bằng xô trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  pickup_lectern_book:
+    display-menu: true
+    permission-enabled:
+      type: LECTERN
+      name: '&6Lấy Sách Từ Bục'
+      lore:
+        - '&7Quyền truy cập để lấy sách ra khỏi bục sách trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: LECTERN
+      name: '&6Lấy Sách Từ Bục'
+      lore:
+        - '&7Quyền truy cập để lấy sách ra khỏi bục sách trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: LECTERN
+      name: '&6Lấy Sách Từ Bục'
+      lore:
+        - '&7Quyền truy cập để lấy sách ra khỏi bục sách trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  promote_members:
+    display-menu: true
+    permission-enabled:
+      type: DIAMOND
+      name: '&6Thăng Cấp Thành Viên'
+      lore:
+        - '&7Quyền truy cập để thăng cấp các thành viên trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: DIAMOND
+      name: '&6Thăng Cấp Thành Viên'
+      lore:
+        - '&7Quyền truy cập để thăng cấp các thành viên trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: DIAMOND
+      name: '&6Thăng Cấp Thành Viên'
+      lore:
+        - '&7Quyền truy cập để thăng cấp các thành viên trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  rankup:
+    display-menu: true
+    permission-enabled:
+      type: GOLD_INGOT
+      name: '&6Nâng Cấp Rank'
+      lore:
+        - '&7Quyền truy cập để nâng cấp rank của đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: GOLD_INGOT
+      name: '&6Nâng Cấp Rank'
+      lore:
+        - '&7Quyền truy cập để nâng cấp rank của đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: GOLD_INGOT
+      name: '&6Nâng Cấp Rank'
+      lore:
+        - '&7Quyền truy cập để nâng cấp rank của đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  uncoop_member:
+    display-menu: true
+    permission-enabled:
+      type: GOLDEN_APPLE
+      name: '&6Gỡ Thành Viên Co-op'
+      lore:
+        - '&7Quyền truy cập để gỡ bỏ các thành viên co-op khỏi đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: GOLDEN_APPLE
+      name: '&6Gỡ Thành Viên Co-op'
+      lore:
+        - '&7Quyền truy cập để gỡ bỏ các thành viên co-op khỏi đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: GOLDEN_APPLE
+      name: '&6Gỡ Thành Viên Co-op'
+      lore:
+        - '&7Quyền truy cập để gỡ bỏ các thành viên co-op khỏi đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  sign_interact:
+    display-menu: true
+    permission-enabled:
+      type: OAK_SIGN
+      name: '&6Tương Tác Biển Báo'
+      lore:
+        - '&7Quyền truy cập để tương tác với các biển báo trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: OAK_SIGN
+      name: '&6Tương Tác Biển Báo'
+      lore:
+        - '&7Quyền truy cập để tương tác với các biển báo trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: OAK_SIGN
+      name: '&6Tương Tác Biển Báo'
+      lore:
+        - '&7Quyền truy cập để tương tác với các biển báo trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  spawner_break:
+    display-menu: true
+    permission-enabled:
+      type: SPAWNER
+      name: '&6Phá Spawner'
+      lore:
+        - '&7Quyền truy cập để phá các spawner trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: SPAWNER
+      name: '&6Phá Spawner'
+      lore:
+        - '&7Quyền truy cập để phá các spawner trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: SPAWNER
+      name: '&6Phá Spawner'
+      lore:
+        - '&7Quyền truy cập để phá các spawner trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  turtle_egg_tramping:
+    display-menu: true
+    permission-enabled:
+      type: TURTLE_EGG
+      name: '&6Dẫm Lên Trứng Rùa'
+      lore:
+        - '&7Quyền truy cập để dẫm lên trứng rùa trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: TURTLE_EGG
+      name: '&6Dẫm Lên Trứng Rùa'
+      lore:
+        - '&7Quyền truy cập để dẫm lên trứng rùa trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: TURTLE_EGG
+      name: '&6Dẫm Lên Trứng Rùa'
+      lore:
+        - '&7Quyền truy cập để dẫm lên trứng rùa trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  use:
+    display-menu: true
+    permission-enabled:
+      type: STONE_BUTTON
+      name: '&6Sử Dụng'
+      lore:
+        - '&7Quyền truy cập để sử dụng các khối khác nhau trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: STONE_BUTTON
+      name: '&6Sử Dụng'
+      lore:
+        - '&7Quyền truy cập để sử dụng các khối khác nhau trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: STONE_BUTTON
+      name: '&6Sử Dụng'
+      lore:
+        - '&7Quyền truy cập để sử dụng các khối khác nhau trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  valuable_break:
+    display-menu: true
+    permission-enabled:
+      type: GOLD_INGOT
+      name: '&6Phá Khối Quý'
+      lore:
+        - '&7Quyền truy cập để phá các khối quý trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: GOLD_INGOT
+      name: '&6Phá Khối Quý'
+      lore:
+        - '&7Quyền truy cập để phá các khối quý trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: GOLD_INGOT
+      name: '&6Phá Khối Quý'
+      lore:
+        - '&7Quyền truy cập để phá các khối quý trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  villager_trading:
+    display-menu: true
+    permission-enabled:
+      type: PLAYER_HEAD
+      skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDFiODMwZWI0MDgyYWNlYzgzNmJjODM1ZTQwYTExMjgyYmI1MTE5MzMxNWY5MTE4NDMzN2U4ZDM1NTU1ODMifX19'
+      name: '&6Giao Dịch Với Villager'
+      lore:
+        - '&7Quyền truy cập để giao dịch với villager trong đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: PLAYER_HEAD
+      skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDFiODMwZWI0MDgyYWNlYzgzNmJjODM1ZTQwYTExMjgyYmI1MTE5MzMxNWY5MTE4NDMzN2U4ZDM1NTU1ODMifX19'
+      name: '&6Giao Dịch Với Villager'
+      lore:
+        - '&7Quyền truy cập để giao dịch với villager trong đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: PLAYER_HEAD
+      skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDFiODMwZWI0MDgyYWNlYzgzNmJjODM1ZTQwYTExMjgyYmI1MTE5MzMxNWY5MTE4NDMzN2U4ZDM1NTU1ODMifX19'
+      name: '&6Giao Dịch Với Villager'
+      lore:
+        - '&7Quyền truy cập để giao dịch với villager trong đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2
+
+  withdraw_money:
+    display-menu: true
+    permission-enabled:
+      type: EMERALD
+      name: '&6Rút Tiền'
+      lore:
+        - '&7Quyền truy cập để rút tiền từ ngân hàng của đảo.'
+        - '&7Hiện tại &aĐƯỢC BẬT&7.'
+    permission-disabled:
+      type: EMERALD
+      name: '&6Rút Tiền'
+      lore:
+        - '&7Quyền truy cập để rút tiền từ ngân hàng của đảo.'
+        - '&7Hiện tại &cĐƯỢC TẮT&7.'
+    role-permission:
+      type: EMERALD
+      name: '&6Rút Tiền'
+      lore:
+        - '&7Quyền truy cập để rút tiền từ ngân hàng của đảo.'
+        - '&7Vai trò: &e{}&7.'
+        - ''
+        - '{0}'
+    has-access:
+      sound:
+        type: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 0.2
+        pitch: 0.2
+    no-access:
+      sound:
+        type: BLOCK_ANVIL_PLACE
+        volume: 0.2
+        pitch: 0.2

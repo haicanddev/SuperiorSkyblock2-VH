@@ -1,0 +1,430 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##                                                  ##
+######################################################
+
+title: '&lCài Đặt Đảo'
+previous-menu: true
+
+pattern:
+  - '$ $ $ $ $ $ $ $ $'
+  - '$ @ @ @ @ @ @ @ $'
+  - '$ @ @ @ @ @ @ @ $'
+  - '$ @ @ @ @ @ @ @ $'
+  - '$ $ % $ * $ ^ $ $'
+
+slots: '@'
+previous-page: '%'
+current-page: '*'
+next-page: '^'
+
+items:
+  '$':
+    type: CYAN_STAINED_GLASS_PANE
+    name: '&f'
+  '%':
+    type: PAPER
+    name: '{0}Trang Trước'
+  '*':
+    type: SUNFLOWER
+    name: '&aTrang Hiện Tại'
+    lore:
+      - '&7Trang {0}'
+  '^':
+    type: PAPER
+    name: '{0}Trang Tiếp Theo'
+
+settings:
+  always_day:
+    settings-enabled:
+      type: YELLOW_TERRACOTTA
+      name: '&6Luôn Ban Ngày'
+      lore:
+        - '&7Đặt thời gian ban ngày trên đảo của bạn.'
+        - '&7Hiện tại &aBẬT&7.'
+    settings-disabled:
+      type: YELLOW_TERRACOTTA
+      name: '&6Luôn Ban Ngày'
+      lore:
+        - '&7Đặt thời gian ban ngày trên đảo của bạn.'
+        - '&7Hiện tại &cTẮT&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  always_middle_day:
+    settings-enabled:
+      type: ORANGE_TERRACOTTA
+      name: '&6Luôn Giữa Ban Ngày'
+      lore:
+        - '&7Đặt thời gian giữa ban ngày trên đảo của bạn.'
+        - '&7Hiện tại &aBẬT&7.'
+    settings-disabled:
+      type: ORANGE_TERRACOTTA
+      name: '&6Luôn Giữa Ban Ngày'
+      lore:
+        - '&7Đặt thời gian giữa ban ngày trên đảo của bạn.'
+        - '&7Hiện tại &cTẮT&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  always_night:
+    settings-enabled:
+      type: LIGHT_BLUE_TERRACOTTA
+      name: '&6Luôn Ban Đêm'
+      lore:
+        - '&7Đặt thời gian ban đêm trên đảo của bạn.'
+        - '&7Hiện tại &aBẬT&7.'
+    settings-disabled:
+      type: LIGHT_BLUE_TERRACOTTA
+      name: '&6Luôn Ban Đêm'
+      lore:
+        - '&7Đặt thời gian ban đêm trên đảo của bạn.'
+        - '&7Hiện tại &cTẮT&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  always_middle_night:
+    settings-enabled:
+      type: BLUE_TERRACOTTA
+      name: '&6Luôn Giữa Ban Đêm'
+      lore:
+        - '&7Đặt thời gian giữa ban đêm trên đảo của bạn.'
+        - '&7Hiện tại &aBẬT&7.'
+    settings-disabled:
+      type: BLUE_TERRACOTTA
+      name: '&6Luôn Giữa Ban Đêm'
+      lore:
+        - '&7Đặt thời gian giữa ban đêm trên đảo của bạn.'
+        - '&7Hiện tại &cTẮT&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  always_rain:
+    settings-enabled:
+      type: LILY_PAD
+      name: '&6Luôn Mưa'
+      lore:
+        - '&7Đặt thời tiết mưa trên đảo của bạn.'
+        - '&7Hiện tại &aBẬT&7.'
+    settings-disabled:
+      type: LILY_PAD
+      name: '&6Luôn Mưa'
+      lore:
+        - '&7Đặt thời tiết mưa trên đảo của bạn.'
+        - '&7Hiện tại &cTẮT&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  always_shiny:
+    settings-enabled:
+      type: DEAD_BUSH
+      name: '&6Luôn Sáng'
+      lore:
+        - '&7Đặt thời tiết sáng trên đảo của bạn.'
+        - '&7Hiện tại &aBẬT&7.'
+    settings-disabled:
+      type: DEAD_BUSH
+      name: '&6Luôn Sáng'
+      lore:
+        - '&7Đặt thời tiết sáng trên đảo của bạn.'
+        - '&7Hiện tại &cTẮT&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  creeper_explosion:
+    settings-enabled:
+      type: CREEPER_HEAD
+      name: '&6Nổ Creeper'
+      lore:
+        - '&7Cho phép creeper nổ phá các khối trên đảo của bạn.'
+        - '&7Hiện tại &aBẬT&7.'
+    settings-disabled:
+      type: CREEPER_HEAD
+      name: '&6Nổ Creeper'
+      lore:
+        - '&7Cho phép creeper nổ phá các khối trên đảo của bạn.'
+        - '&7Hiện tại &cTẮT&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  crops_growth:
+    settings-enabled:
+      type: WHEAT_SEEDS
+      name: '&6Tăng Trưởng Cây Trồng'
+      lore:
+        - '&7Cho phép cây trồng phát triển trên đảo của bạn.'
+        - '&7Hiện tại &aBẬT&7.'
+    settings-disabled:
+      type: WHEAT_SEEDS
+      name: '&6Tăng Trưởng Cây Trồng'
+      lore:
+        - '&7Cho phép cây trồng phát triển trên đảo của bạn.'
+        - '&7Hiện tại &cTẮT&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  egg_lay:
+    settings-enabled:
+      type: EGG
+      name: '&6Đẻ Trứng'
+      lore:
+        - '&7Cho phép gà đẻ trứng trên đảo của bạn.'
+        - '&7Hiện tại &aBẬT&7.'
+    settings-disabled:
+      type: EGG
+      name: '&6Đẻ Trứng'
+      lore:
+        - '&7Cho phép gà đẻ trứng trên đảo của bạn.'
+        - '&7Hiện tại &cTẮT&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  enderman_grief:
+    settings-enabled:
+      type: ENDER_PEARL
+      name: '&6Quấy Rối Enderman'
+      lore:
+        - '&7Cho phép enderman phá hủy các khối trên đảo của bạn.'
+        - '&7Hiện tại &aBẬT&7.'
+    settings-disabled:
+      type: ENDER_PEARL
+      name: '&6Quấy Rối Enderman'
+      lore:
+        - '&7Cho phép enderman phá hủy các khối trên đảo của bạn.'
+        - '&7Hiện tại &cTẮT&7.'
+
+  fire_spread:
+    settings-enabled:
+      type: FLINT_AND_STEEL
+      name: '&6Lửa Lan Ra'
+      lore:
+        - '&7Cho phép lửa lan rộng trên đảo của bạn.'
+        - '&7Hiện tại &aBẬT&7.'
+    settings-disabled:
+      type: FLINT_AND_STEEL
+      name: '&6Lửa Lan Ra'
+      lore:
+        - '&7Cho phép lửa lan rộng trên đảo của bạn.'
+        - '&7Hiện tại &cTẮT&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  ghast_fireball:
+    settings-enabled:
+      type: FIRE_CHARGE
+      name: '&6Fireball Ghast'
+      lore:
+        - '&7Cho phép fireballs phá hủy các khối trên đảo của bạn.'
+        - '&7Hiện tại &aBẬT&7.'
+    settings-disabled:
+      type: FIRE_CHARGE
+      name: '&6Fireball Ghast'
+      lore:
+        - '&7Cho phép fireballs phá hủy các khối trên đảo của bạn.'
+        - '&7Hiện tại &cTẮT&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  lava_flow:
+    settings-enabled:
+      type: LAVA_BUCKET
+      name: '&6Dòng Chảy Lava'
+      lore:
+        - '&7Cho phép lava chảy trên đảo của bạn.'
+        - '&7Hiện tại &aBẬT&7.'
+    settings-disabled:
+      type: LAVA_BUCKET
+      name: '&6Dòng Chảy Lava'
+      lore:
+        - '&7Cho phép lava chảy trên đảo của bạn.'
+        - '&7Hiện tại &cTẮT&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  natural_animals_spawn:
+    settings-enabled:
+      type: PIG_SPAWN_EGG
+      name: '&6Spawn Động Vật Tự Nhiên'
+      lore:
+        - '&7Cho phép động vật tự nhiên xuất hiện trên đảo.'
+        - '&7Hiện tại &aBẬT&7.'
+    settings-disabled:
+      type: PIG_SPAWN_EGG
+      name: '&6Spawn Động Vật Tự Nhiên'
+      lore:
+        - '&7Cho phép động vật tự nhiên xuất hiện trên đảo.'
+        - '&7Hiện tại &cTẮT&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  natural_monster_spawn:
+    settings-enabled:
+      type: ZOMBIE_SPAWN_EGG
+      name: '&6Spawn Quái Vật Tự Nhiên'
+      lore:
+        - '&7Cho phép quái vật tự nhiên xuất hiện trên đảo.'
+        - '&7Hiện tại &aBẬT&7.'
+    settings-disabled:
+      type: ZOMBIE_SPAWN_EGG
+      name: '&6Spawn Quái Vật Tự Nhiên'
+      lore:
+        - '&7Cho phép quái vật tự nhiên xuất hiện trên đảo.'
+        - '&7Hiện tại &cTẮT&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  pvp:
+    settings-enabled:
+      type: DIAMOND_SWORD
+      name: '&6PvP'
+      lore:
+        - '&7Cho phép người chơi PvP trên đảo của bạn.'
+        - '&7Hiện tại &aBẬT&7.'
+    settings-disabled:
+      type: DIAMOND_SWORD
+      name: '&6PvP'
+      lore:
+        - '&7Cho phép người chơi PvP trên đảo của bạn.'
+        - '&7Hiện tại &cTẮT&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  spawner_animals_spawn:
+    settings-enabled:
+      type: SPAWNER
+      name: '&6Spawn Động Vật Từ Spawner'
+      lore:
+        - '&7Cho phép spawner sinh ra động vật trên đảo của bạn.'
+        - '&7Hiện tại &aBẬT&7.'
+    settings-disabled:
+      type: SPAWNER
+      name: '&6Spawn Động Vật Từ Spawner'
+      lore:
+        - '&7Cho phép spawner sinh ra động vật trên đảo của bạn.'
+        - '&7Hiện tại &cTẮT&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  spawner_monster_spawn:
+    settings-enabled:
+      type: SPAWNER
+      name: '&6Spawn Quái Vật Từ Spawner'
+      lore:
+        - '&7Cho phép spawner sinh ra quái vật trên đảo của bạn.'
+        - '&7Hiện tại &aBẬT&7.'
+    settings-disabled:
+      type: SPAWNER
+      name: '&6Spawn Quái Vật Từ Spawner'
+      lore:
+        - '&7Cho phép spawner sinh ra quái vật trên đảo của bạn.'
+        - '&7Hiện tại &cTẮT&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  tnt_explosion:
+    settings-enabled:
+      type: TNT
+      name: '&6Nổ TNT'
+      lore:
+        - '&7Cho phép TNT nổ phá các khối trên đảo của bạn.'
+        - '&7Hiện tại &aBẬT&7.'
+    settings-disabled:
+      type: TNT
+      name: '&6Nổ TNT'
+      lore:
+        - '&7Cho phép TNT nổ phá các khối trên đảo của bạn.'
+        - '&7Hiện tại &cTẮT&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  tree_growth:
+    settings-enabled:
+      type: OAK_SAPLING
+      name: '&6Tăng Trưởng Cây Cối'
+      lore:
+        - '&7Cho phép cây cối phát triển trên đảo của bạn.'
+        - '&7Hiện tại &aBẬT&7.'
+    settings-disabled:
+      type: OAK_SAPLING
+      name: '&6Tăng Trưởng Cây Cối'
+      lore:
+        - '&7Cho phép cây cối phát triển trên đảo của bạn.'
+        - '&7Hiện tại &cTẮT&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  water_flow:
+    settings-enabled:
+      type: WATER_BUCKET
+      name: '&6Dòng Chảy Nước'
+      lore:
+        - '&7Cho phép nước chảy trên đảo của bạn.'
+        - '&7Hiện tại &aBẬT&7.'
+    settings-disabled:
+      type: WATER_BUCKET
+      name: '&6Dòng Chảy Nước'
+      lore:
+        - '&7Cho phép nước chảy trên đảo của bạn.'
+        - '&7Hiện tại &cTẮT&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  wither_explosion:
+    settings-enabled:
+      type: WITHER_SKELETON_SKULL
+      name: '&6Nổ Wither'
+      lore:
+        - '&7Cho phép wither nổ phá các khối trên đảo của bạn.'
+        - '&7Hiện tại &aBẬT&7.'
+    settings-disabled:
+      type: WITHER_SKELETON_SKULL
+      name: '&6Nổ Wither'
+      lore:
+        - '&7Cho phép wither nổ phá các khối trên đảo của bạn.'
+        - '&7Hiện tại &cTẮT&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2

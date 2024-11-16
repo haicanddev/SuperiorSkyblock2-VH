@@ -1,0 +1,136 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##                                                  ##
+######################################################
+
+title: '&lNgân Hàng Đảo'
+previous-menu: true
+
+pattern:
+  - '= - @ @ @ @ @ - ='
+  - '- @ ! @ @ @ % @ -'
+  - '@ # @ @ * @ @ ^ @'
+  - '- @ $ @ @ @ & @ -'
+  - '= - @ @ ~ @ @ - ='
+
+logs: '~'
+
+items:
+  '!':
+    type: LIME_STAINED_GLASS_PANE
+    name: '&aGửi Một Nửa Số Tiền'
+    lore:
+      - '&7Gửi một nửa số tiền của bạn vào ngân hàng.'
+    bank-action:
+      deposit: 50.0
+  '#':
+    type: LIME_STAINED_GLASS_PANE
+    name: '&aGửi Tiền'
+    lore:
+      - '&7Gửi tiền vào ngân hàng.'
+    bank-action:
+      deposit: 0.0
+  '$':
+    type: LIME_STAINED_GLASS_PANE
+    name: '&aGửi Tất Cả Tiền'
+    lore:
+      - '&7Gửi tất cả số tiền của bạn vào ngân hàng.'
+    bank-action:
+      deposit: 100.0
+  '%':
+    type: RED_STAINED_GLASS_PANE
+    name: '&aRút Một Nửa Số Tiền'
+    lore:
+      - '&7Rút một nửa số tiền từ ngân hàng.'
+    bank-action:
+      withdraw: 50.0
+  '^':
+    type: RED_STAINED_GLASS_PANE
+    name: '&aRút Tiền'
+    lore:
+      - '&7Rút tiền từ ngân hàng.'
+    bank-action:
+      withdraw: 0.0
+  '&':
+    type: RED_STAINED_GLASS_PANE
+    name: '&aRút Tất Cả Tiền'
+    lore:
+      - '&7Rút tất cả số tiền từ ngân hàng.'
+    bank-action:
+      withdraw: 100.0
+  '*':
+    type: PAPER
+    name: '&6Số Dư'
+    lore:
+      - '&7Ngân hàng của bạn hiện có $%superior_island_bank_format%'
+  '=':
+    type: EMERALD_BLOCK
+    name: '&f '
+  '-':
+    type: EMERALD
+    name: '&f '
+  '~':
+    type: EXPERIENCE_BOTTLE
+    name: '&6Nhật Ký Giao Dịch'
+
+sounds:
+  '!':
+    success-sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+    fail-sound:
+      type: BLOCK_ANVIL_PLACE
+      volume: 0.2
+      pitch: 0.2
+  '#':
+    success-sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+    fail-sound:
+      type: BLOCK_ANVIL_PLACE
+      volume: 0.2
+      pitch: 0.2
+  '$':
+    success-sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+    fail-sound:
+      type: BLOCK_ANVIL_PLACE
+      volume: 0.2
+      pitch: 0.2
+  '%':
+    success-sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+    fail-sound:
+      type: BLOCK_ANVIL_PLACE
+      volume: 0.2
+      pitch: 0.2
+  '^':
+    success-sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+    fail-sound:
+      type: BLOCK_ANVIL_PLACE
+      volume: 0.2
+      pitch: 0.2
+  '&':
+    success-sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+    fail-sound:
+      type: BLOCK_ANVIL_PLACE
+      volume: 0.2
+      pitch: 0.2
+  '~':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2

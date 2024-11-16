@@ -1,0 +1,64 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##                                                  ##
+######################################################
+
+title: '&lNhật ký Giao Dịch &r{0}'
+previous-menu: true
+
+pattern:
+  - '@ @ @ @ @ @ @ @ @'
+  - '@ @ @ @ @ @ @ @ @'
+  - '@ @ @ @ @ @ @ @ @'
+  - '@ @ @ @ @ @ @ @ @'
+  - '$ $ $ ! $ - $ $ $'
+  - '# # % # * # ^ # #'
+
+slots:
+  '@': 'Giao dịch'
+  previous-page: 'Trang trước'
+  current-page: 'Trang hiện tại'
+  next-page: 'Trang tiếp theo'
+
+time-sort: '!'
+money-sort: '-'
+
+items:
+  '@':
+    type: PAPER
+    name: '&eGiao Dịch #{0}'
+    lore:
+      - '&7Người chơi: {1}'
+      - '&7Tình trạng: {2}'
+      - '&7Thời gian: {3}'
+      - '&7Số tiền: ${4}'
+      - '&7 '
+      - '&7&o(( &f&oNhấp Chuột Phải &7&oto lọc giao dịch của người chơi này. ))'
+  '%':
+    type: PAPER
+    name: '{0}Trang Trước'
+  '*':
+    type: SUNFLOWER
+    name: '&aTrang Hiện Tại'
+    lore:
+      - '&7Trang {0}'
+  '^':
+    type: PAPER
+    name: '{0}Trang Tiếp Theo'
+  '$':
+    type: BLACK_STAINED_GLASS_PANE
+    name: '&f'
+  '!':
+    type: CLOCK
+    name: '&6Sắp xếp theo thời gian tạo'
+  '-':
+    type: EMERALD
+    name: '&6Sắp xếp theo số tiền'
+
+sounds:
+  '@':
+    type: BLOCK_CHEST_OPEN
+    volume: 0.8
+    pitch: 1

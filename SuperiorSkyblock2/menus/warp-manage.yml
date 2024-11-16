@@ -1,0 +1,58 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Phát triển bởi Ome_R              ##
+##                                                  ##
+######################################################
+
+title: '&lWarp: {0}'
+previous-menu: true
+
+pattern:
+  - '@ @ @ @ @ @ @ @ @'
+  - '@ @ ! @ % @ $ @ @'
+  - '@ @ @ @ ~ @ @ @ @'
+  - '@ @ @ @ @ @ @ @ @'
+
+success-update-sound:
+  type: ENTITY_EXPERIENCE_ORB_PICKUP
+  volume: 0.2
+  pitch: 0.2
+
+warp-rename: '!'
+warp-icon: '~'
+warp-location: '$'
+warp-private: '%'
+
+items:
+  '!':
+    type: BOOK
+    name: '&6Đổi Tên Warp'
+    lore:
+      - '&f '
+      - '&f '
+      - '&7&o(( &f&oNhấn &7&ochỉnh sửa tên warp. ))'
+  '~':
+    type: STONE
+    lore:
+      - '&f '
+      - '&f '
+      - '&7&oBạn có thể sử dụng các placeholder sau:'
+      - '&7&o{0} là tên của warp.'
+      - '&7&o{1} là vị trí của warp.'
+      - '&7&o{2} là trạng thái công khai của warp.'
+      - '&7&o(( &f&oNhấn &7&ochỉnh sửa biểu tượng. ))'
+  '$':
+    type: ENDER_PEARL
+    name: '&6Vị Trí Warp'
+    lore:
+      - '&f '
+      - '&f '
+      - '&7&o(( &f&oNhấn &7&ocập nhật vị trí warp. ))'
+  '%':
+    type: FEATHER
+    name: '&6Warp Riêng Tư'
+    lore:
+      - '&f '
+      - '&f '
+      - '&7&o(( &f&oNhấn &7&ochuyển đổi warp thành công khai. ))'

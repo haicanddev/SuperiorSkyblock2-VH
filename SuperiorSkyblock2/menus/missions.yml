@@ -1,0 +1,70 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##                                                  ##
+######################################################
+
+title: '&lNhiệm Vụ'
+previous-menu: true
+
+pattern:
+  - '$ $ $ $ $ $ $ $ $'
+  - '$ * * * * * * * $'
+  - '$ * # @ % ^ & * $'
+  - '$ * * * * * * * $'
+  - '$ $ $ $ $ $ $ $ $'
+
+items:
+  '$':
+    type: BLACK_STAINED_GLASS_PANE
+    name: '&f'
+  '#':
+    type: DIAMOND_PICKAXE
+    name: '&eNhiệm Vụ Thợ Mỏ'
+    lore:
+      - '&7Nhấp để bắt đầu cuộc phiêu lưu của bạn như một Thợ Mỏ.'
+    flags:
+      - HIDE_ATTRIBUTES
+  '@':
+    type: ZOMBIE_HEAD
+    name: '&eNhiệm Vụ Sát Thủ'
+    lore:
+      - '&7Nhấp để bắt đầu cuộc phiêu lưu của bạn như một Sát Thủ.'
+  '%':
+    type: WHEAT
+    name: '&eNhiệm Vụ Nông Dân'
+    lore:
+      - '&7Nhấp để bắt đầu cuộc phiêu lưu của bạn như một Nông Dân.'
+  '^':
+    type: FISHING_ROD
+    name: '&eNhiệm Vụ Ngư Dân'
+    lore:
+      - '&7Nhấp để bắt đầu cuộc phiêu lưu của bạn như một Ngư Dân.'
+  '&':
+    type: MAP
+    name: '&eNhiệm Vụ Khám Phá'
+    lore:
+      - '&7Nhấp để bắt đầu cuộc phiêu lưu của bạn như một Nhà Khám Phá.'
+
+sounds:
+  '#':
+    type: BLOCK_CHEST_OPEN
+    volume: 0.8
+    pitch: 1
+  '@':
+    type: BLOCK_CHEST_OPEN
+    volume: 0.8
+    pitch: 1
+  '%':
+    type: BLOCK_CHEST_OPEN
+    volume: 0.8
+    pitch: 1
+  '^':
+    type: BLOCK_CHEST_OPEN
+    volume: 0.8
+    pitch: 1
+  '&':
+    type: BLOCK_CHEST_OPEN
+    volume: 0.8
+    pitch: 1

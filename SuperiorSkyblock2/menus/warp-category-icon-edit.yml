@@ -1,0 +1,60 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Phát triển bởi Ome_R              ##
+##                                                  ##
+######################################################
+
+title: '&lDanh Mục: {0}'
+previous-menu: true
+
+pattern:
+  - '@ @ @ @ @ @ @ @ @'
+  - '@ ! @ @ @ @ @ ~ @'
+  - '@ @ @ @ ^ @ @ @ @'
+  - '@ $ @ @ @ @ @ % @'
+  - '@ @ @ @ @ @ @ @ @'
+
+icon-type: '!'
+icon-rename: '~'
+icon-relore: '$'
+icon-confirm: '%'
+icon-slots: '^'
+
+items:
+  '!':
+    type: DIAMOND
+    name: '&6Thiết Lập Loại'
+    lore:
+      - '&f '
+      - '&f '
+      - '&7&o(( &f&oNhấn &7&ochỉnh sửa loại vật phẩm. ))'
+  '~':
+    type: ANVIL
+    name: '&6Thiết Lập Tên'
+    lore:
+      - '&f '
+      - '&f '
+      - '&7&o(( &f&oNhấn &7&ochỉnh sửa tên vật phẩm. ))'
+  '$':
+    type: PAPER
+    name: '&6Thiết Lập Lore'
+    lore:
+      - '&f '
+      - '&f '
+      - '&7&o(( &f&oNhấn &7&ochỉnh sửa mô tả vật phẩm. ))'
+  '%':
+    type: EMERALD
+    name: '&6Xác Nhận Thay Đổi'
+    lore:
+      - '&f '
+      - '&f '
+      - '&7&o(( &f&oNhấn &7&oxác nhận tất cả thay đổi. ))'
+  '^':
+    type: STONE
+
+sounds:
+  '%':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2

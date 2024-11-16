@@ -1,0 +1,48 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Phát triển bởi Ome_R              ##
+##                                                  ##
+######################################################
+
+title: '&lDanh Mục Điểm Warp'
+previous-menu: true
+
+pattern:
+  - '@ @ @ @ @ @ @ @ @'
+  - '@ @ @ @ @ @ @ @ @'
+  - '@ @ @ @ @ @ @ @ @'
+  - '@ @ @ @ @ @ @ @ @'
+  - '$ $ $ $ $ $ $ $ $'
+  - '# # % # * # ^ # #'
+
+slots: '@'
+previous-page: '%'
+current-page: '*'
+next-page: '^'
+
+# Thêm dòng mô tả này vào các biểu tượng danh mục.
+edit-lore:
+  - '&f '
+  - '&f '
+  - '&7&o(( &f&oNhấn Chuột Trái &7&oxem các điểm warp của đảo. ))'
+  - '&7&o(( &f&oNhấn Chuột Phải &7&ochỉnh sửa danh mục. ))'
+
+items:
+  '@':
+    type: BLACK_STAINED_GLASS_PANE
+    name: '&f'
+  '%':
+    type: PAPER
+    name: '&cTrang Trước'
+  '*':
+    type: SUNFLOWER
+    name: '&aTrang Hiện Tại'
+    lore:
+      - '&7Trang 1'
+  '^':
+    type: PAPER
+    name: '&cTrang Tiếp'
+  '$':
+    type: BLACK_STAINED_GLASS_PANE
+    name: '&f'

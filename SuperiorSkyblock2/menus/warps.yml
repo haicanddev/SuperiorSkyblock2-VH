@@ -1,0 +1,54 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##                                                  ##
+######################################################
+
+title: '&lCác Điểm Warp Của Đảo'
+previous-menu: true
+
+pattern:
+  - '@ @ @ @ @ @ @ @ @'
+  - '@ @ @ @ @ @ @ @ @'
+  - '@ @ @ @ @ @ @ @ @'
+  - '@ @ @ @ @ @ @ @ @'
+  - '$ $ $ $ $ $ $ $ $'
+  - '# # % # * # ^ # #'
+
+warps: '@'
+previous-page: '%'
+current-page: '*'
+next-page: '^'
+
+# Khi được bật, thay vì hiển thị các điểm warp, các vị trí warp của khách sẽ được hiển thị.
+# Để hiển thị mô tả, sử dụng placeholder {1}.
+visitor-warps: false
+
+items:
+  '@':
+    type: PLAYER_HEAD
+    name: '&eĐảo của {0}'
+    lore:
+      - '&7Nhấp để xem tất cả các điểm warp của đảo này.'
+      - '&8>> &7Đảo này có {2} điểm warp.'
+  '%':
+    type: PAPER
+    name: '{0}Trang Trước'
+  '*':
+    type: SUNFLOWER
+    name: '&aTrang Hiện Tại'
+    lore:
+      - '&7Trang {0}'
+  '^':
+    type: PAPER
+    name: '{0}Trang Tiếp Theo'
+  '$':
+    type: BLACK_STAINED_GLASS_PANE
+    name: '&f'
+
+sounds:
+  '@':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
